@@ -15,10 +15,21 @@
         </h3>
         <a class="btn" href="">Saiba mais!</a>
     </div>
-    <img src="" alt="">
+    <img src="../img/home1.jpeg" alt="">
 </div>
 
-<div class="bloco"></div>
+<div class="bloco">
+    <img src="../img/home2.jpg" alt="">
+    <div class="texto">
+        <h1 class="font-light">Aulas <b>divertidas</b> e Exercícios <b>práticos!</b></h1>
+        <h3 class="font-light">
+        Os métodos de aprendizado são perfeitamente direcionados para crianças, tornando as aulas muito mais divertidas e efetivas. Sem conteúdo massante, sem enrolação! Estamos preparados para garantir que os pequenos tenham vontade e capacidade para aprender! <br><br>
+        
+        Confira abaixo alguns exemplos de exercícíos produzidos em aula.
+        </h3>
+        <a class="btn" href="">Exemplos práticos</a>
+    </div>
+</div>
 
 <?php 
     include 'footer.php';
