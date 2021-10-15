@@ -29,11 +29,11 @@
 
     <nav>
         <ul>
-            <li><a href=""> Sessão 1</a></li>
-            <li><a href=""> Sessão 2</a></li>
-            <li><a href=""> Sessão 3</a></li>
-            <li><a href=""> Sessão 4</a></li>
-            <li><a href=""> Sessão 5</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="conteudo.php">Cursos</a></li>
+            <li><a href="projetos.php">Projetos</a></li>
+            <li><a href="suporte.php">Suporte</a></li>
+            <li><a href="perfil.php">Perfil</a></li>
         </ul>
     </nav>
 

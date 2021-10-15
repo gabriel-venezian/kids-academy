@@ -13,7 +13,7 @@
 
             Clique no botão abaixo para maiores informações, e venha participar da Kids Academy!
         </h3>
-        <a class="btn" href="">Saiba mais!</a>
+        <a class="btn" href="conteudo.php">Saiba mais!</a>
     </div>
     <img src="../img/home1.jpeg" alt="">
 </div>
@@ -27,7 +27,7 @@
         
         Confira abaixo alguns exemplos de exercícíos produzidos em aula.
         </h3>
-        <a class="btn" href="">Exemplos práticos</a>
+        <a class="btn" href="projetos.php">Exemplos práticos</a>
     </div>
 </div>
 
