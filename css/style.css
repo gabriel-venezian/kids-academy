@@ -94,7 +94,7 @@ main{
     width: 100%;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .bloco{
@@ -149,4 +149,76 @@ footer p{
 
 footer img{
     width: 40px;
+}
+
+/*
+    Inscrição
+*/
+.signForm {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+
+.formBody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+}
+
+legend {
+    font: bold 1.8em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formBody h3 {
+    font: bold 1.5em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+
+.formBody input {
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font: bold 1.2em Arial, Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formBody p {
+    align-self: center;
+    margin-top: 10px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: black;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+    
+}
+
+::placeholder {
+    color: black;
+    font: bold 1em Arial, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formBody a, a:visited, a:hover, a:active  {
+    text-decoration: none;
+    color: inherit;
+}
+
+.formBody .btn.black {
+    border-radius: 0px;
+    height: 50px;
+    display: inline-flex;
+    margin-top: 15px;
+    align-self: center;
 }
