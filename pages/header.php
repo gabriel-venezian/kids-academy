@@ -8,8 +8,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <!-- JavaScript -->
-    <script type="text/javascript" src="../js/script.js"></script>
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +17,10 @@
     <!-- Navbar -->
     <header>
         <a href="index.php">
-            <img src="../img/logo.svg" alt="Kids Academy">
+            <picture class="dark-mode">
+                <source srcset="../img/dark-mode/logo.png" media="(prefers-color-scheme: dark)">
+            </picture>
+            <img src="../img/logo.png" alt="Kids Academy" id="logo">
         </a>
         <div class="header-btn">
             <a class="btn" href="login.php">Entrar</a>
@@ -30,10 +31,11 @@
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="conteudo.php">Cursos</a></li>
+            <li><a href="cursos.php">Cursos</a></li>
             <li><a href="projetos.php">Projetos</a></li>
             <li><a href="suporte.php">Suporte</a></li>
             <li><a href="perfil.php">Perfil</a></li>
+            <img src="../img/darkmode.png" alt="" id="dark-mode-switch">
         </ul>
     </nav>
 

@@ -8,17 +8,17 @@
     <div class="card">
         <h1>Calculadora IMC</h1>
         <img src="../img/calculadora.jpg" alt="">
-        <a href="" class="btn">Visualizar</a>
+        <a href="calculadora.php" class="btn">Visualizar</a>
     </div>
     <div class="card">
         <h1>Lâmpada</h1>
         <img src="../img/lampada.jpg" alt="">
-        <a href="" class="btn">Visualizar</a>
+        <a href="lampada.php" class="btn">Visualizar</a>
     </div>
     <div class="card">
         <h1>Semáforo</h1>
         <img src="../img/semaforo.jpg" alt="">
-        <a href="" class="btn">Visualizar</a>
+        <a href="semaforo.php" class="btn">Visualizar</a>
     </div>
 </div>
 
