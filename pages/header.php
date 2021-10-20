@@ -23,7 +23,7 @@
             <img src="../img/logo.png" alt="Kids Academy" id="logo">
         </a>
         <div class="header-btn">
-            <a class="btn" href="login.php">Entrar</a>
+            <a class="btn" href="#">Entrar</a>
             <a class="btn black" href="inscricao.php">Inscrição</a>
         </div>
     </header>
@@ -33,8 +33,8 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="cursos.php">Cursos</a></li>
             <li><a href="projetos.php">Projetos</a></li>
-            <li><a href="suporte.php">Suporte</a></li>
-            <li><a href="perfil.php">Perfil</a></li>
+            <li><a href="#">Suporte</a></li>
+            <li><a href="#">Perfil</a></li>
             <img src="../img/darkmode.png" alt="" id="dark-mode-switch">
         </ul>
     </nav>
