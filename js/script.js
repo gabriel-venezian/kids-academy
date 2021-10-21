@@ -38,12 +38,10 @@ document.getElementById("dark-mode-switch").onclick = function darkmode(){
     }
 };
 
-// Função Lampada
-
+/* Função Lampada */
 document.getElementById("on-off").onclick = function interruptor(){
     var interruptor = document.getElementById("on-off");
     var lampada = document.getElementById("lampada");
-
     if (interruptor.innerHTML == "Acender"){
         interruptor.innerHTML = "Apagar";
         lampada.src = "../img/projetos/lampada-on.jpg";
@@ -54,7 +52,7 @@ document.getElementById("on-off").onclick = function interruptor(){
     }
 };
 
-// Calculator function
+/* Calculator */
 const calcular = document.getElementById('calcular');
 
 function imc() {
@@ -80,5 +78,3 @@ function imc() {
     }
     else resultado.textContent = 'Preencha os campos corretamente.'
 }
-
-calcular.addEventListener('click', imc);
