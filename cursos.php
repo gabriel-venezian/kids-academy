@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kids Academy</title>
+  <title>Cursos | Kids Academy</title>
   <link rel="stylesheet" href="./styles/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +56,7 @@
           <a href="inscricao.php" class="btn signature font-1-s-b clr-gray02">INSCREVER-SE</a>
         </div>
         <div id="essencial-plus" class="signature-plan">
-          <h3 class="font-1-xl clr-pink01">ESSENCIAL+ <span class="clr-white">R$ 49,90</span></h3>
+          <h3 class="font-1-xl clr-pink01">ESSENCIAL + <span class="clr-white">R$ 49,90</span></h3>
           <p class="font-1-m clr-white">por mês</p>
           <ul class="font-1-m clr-white">
             <li>Aulas particulares</li>
