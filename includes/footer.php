@@ -55,10 +55,10 @@
     <div class="footer-navigation">
       <h3 class="font-1-s-b clr-green02">Navegação</h3>
       <ul class="font-2-s clr-green02">
-        <li><a href="">Home</a></li>
-        <li><a href="">Cursos</a></li>
-        <li><a href="">Projetos</a></li>
-        <li><a href="">Perfil</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="cursos.php">Cursos</a></li>
+        <li><a href="projetos.php">Projetos</a></li>
+        <li><a href="login.php">Perfil</a></li>
       </ul>
     </div>
     <p class="font-2-xs clr-green02 copyright">Copyright © 2022 Kids Academy. All rights reserved.</p>

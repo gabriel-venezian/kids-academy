@@ -30,7 +30,7 @@
       <p class="font-2-l clr-gray10">
         Clique no botão abaixo para maiores informações e venha participar da Kids Academy.
       </p>
-      <a href="/" class="btn secondary font-1-btn">
+      <a href="cursos.php" class="btn secondary font-1-btn">
         SAIBA MAIS
         <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1 8H20M20 8L13.5 1.5M20 8L13.5 14.5" stroke="#63006F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

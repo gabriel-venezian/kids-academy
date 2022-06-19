@@ -1,0 +1,65 @@
+.signature-bg {
+  background-color: var(--pink01);
+}
+
+.signature.container {
+  padding-block: 8rem;
+}
+
+.signature.container h2 {
+  margin-bottom: 2rem;
+}
+
+.signature-description {
+  margin-bottom: 4rem;
+}
+
+.signature-plans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signature-plan {
+  border: 3px solid var(--purple01);
+  padding: 4rem 4rem 4rem 6rem;
+  min-width: 56rem;
+  box-sizing: border-box;
+}
+
+.signature-plan h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature-plan p {
+  text-align: right;
+  margin-bottom: 1.2rem;
+}
+
+.signature-plan li {
+  position: relative;
+}
+
+.signature-plan li::before {
+  content: url("../../images/courses/check-essential.svg");
+  position: absolute;
+  left: -3rem;
+}
+
+.signature-plan li + li {
+  margin-top: 1.8rem;
+}
+
+.signature-plan li:last-child {
+  margin-bottom: 3rem;
+}
+
+#essencial-plus {
+  border: none;
+  background-color: var(--gray11);
+}
+
+#essencial-plus li::before {
+  content: url("../../images/courses/check-essential-plus.svg");
+}

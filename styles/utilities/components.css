@@ -42,6 +42,19 @@
   );
 }
 
+.btn.signature {
+  display: block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.5rem;
+  background-color: var(--purple01);
+  transition: 0.2s;
+  max-width: fit-content;
+}
+
+.btn.signature:hover {
+  background-color: #750f81;
+}
+
 @media (max-width: 600px) {
   .btn.primary,
   .btn.secondary {

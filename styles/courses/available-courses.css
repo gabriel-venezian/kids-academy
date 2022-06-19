@@ -1,0 +1,9 @@
+#courses .available-courses {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8rem;
+}
+
+#courses .course p {
+  max-width: 28ch;
+}
