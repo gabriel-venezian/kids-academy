@@ -14,4 +14,5 @@
 @import url("./courses/available-courses.css");
 @import url("./courses/signature.css");
 
+@import url("./register/register.css");
 @import url("./login/login.css");
