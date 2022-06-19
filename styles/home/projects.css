@@ -1,0 +1,14 @@
+.projects {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.projects h2 {
+  margin-bottom: 2rem;
+}
+
+.projects p + p {
+  margin-block: 4rem;
+}

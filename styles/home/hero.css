@@ -1,0 +1,16 @@
+.hero {
+  padding-top: 4rem;
+}
+
+.hero h1 {
+  text-align: center;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  width: 33.7rem;
+  height: 0.2rem;
+  background-color: var(--pink01);
+  margin: 4rem auto;
+}

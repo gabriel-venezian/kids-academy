@@ -1,0 +1,107 @@
+#register-form {
+  display: grid;
+  grid-template-columns: 80rem 32rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 112rem;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background-color: var(--white);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.2);
+}
+
+#register-form fieldset {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#register-form .register-information {
+  padding: 4rem 4rem;
+}
+
+#register-form .register-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+#register-form input {
+  padding: 1.2rem;
+  height: 4.5rem;
+  width: 33rem;
+  margin-bottom: 2rem;
+  border-color: transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: var(--gray01);
+}
+
+::placeholder {
+  font-size: 1em;
+  color: var(--gray07);
+}
+
+input[type="date"]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type="date"]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+
+#register-form .plans {
+  background-color: var(--pink01);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 4rem;
+}
+
+#register-form .plan {
+  border: 3px solid var(--purple01);
+  border-radius: 5px;
+  width: 24rem;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  transition: 0.2s;
+}
+
+#register-form .plan:hover {
+  background-color: var(--white);
+}
+
+#register-form .plan h4 {
+  margin-bottom: 2rem;
+}
+
+#register-form .plans-label {
+  background: #e5d86e;
+  margin: 4px 0;
+  padding: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#register-form .hidden-input {
+  display: none;
+}
+
+#register-form .payment-forms-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#register-form .payment-forms-wrapper svg {
+  cursor: pointer;
+}
+
+#register-form .payment-forms-wrapper svg:hover path,
+.check-with-label:checked + .label-for-check svg path {
+  fill: var(--white);
+}

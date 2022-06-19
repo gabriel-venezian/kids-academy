@@ -1,0 +1,18 @@
+@import url("./global/global.css");
+@import url("./global/header.css");
+@import url("./global/footer.css");
+
+@import url("./utilities/components.css");
+@import url("./utilities/typography.css");
+@import url("./utilities/colors.css");
+
+@import url("./home/hero.css");
+@import url("./home/courses.css");
+@import url("./home/projects.css");
+
+@import url("./courses/header.css");
+@import url("./courses/available-courses.css");
+@import url("./courses/signature.css");
+
+@import url("./register/register.css");
+@import url("./login/login.css");

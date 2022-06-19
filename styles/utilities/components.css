@@ -1,0 +1,63 @@
+.container {
+  box-sizing: border-box;
+  max-width: 120rem;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+  margin-inline: auto;
+}
+
+.btn.primary {
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(180deg, #2cf771 0%, rgba(44, 247, 113, 0.8) 100%);
+  color: var(--green02);
+  transition: 0.2s;
+}
+
+.btn.primary:hover {
+  background: linear-gradient(180deg, #2cf771 0%, rgba(57, 209, 109, 0.8) 100%);
+}
+
+.btn.secondary {
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    180deg,
+    #f2a3fb 0%,
+    rgba(242, 163, 251, 0.8) 100%
+  );
+  color: var(--purple01);
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: fit-content;
+}
+
+.btn.secondary:hover {
+  background: linear-gradient(
+    180deg,
+    #f2a3fb 0%,
+    rgba(201, 110, 211, 0.8) 100%
+  );
+}
+
+.btn.signature {
+  display: block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.5rem;
+  background-color: var(--purple01);
+  transition: 0.2s;
+  max-width: fit-content;
+}
+
+.btn.signature:hover {
+  background-color: #750f81;
+}
+
+@media (max-width: 600px) {
+  .btn.primary,
+  .btn.secondary {
+    padding: 1rem 2rem;
+  }
+}
