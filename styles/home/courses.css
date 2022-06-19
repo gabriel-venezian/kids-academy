@@ -1,0 +1,27 @@
+.courses {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  gap: 4rem;
+}
+
+.courses h2 {
+  margin-bottom: 2rem;
+}
+
+.courses p + p {
+  margin-block: 4rem;
+}
+
+.courses a {
+  grid-row: -1;
+}
+
+.courses::after {
+  content: "";
+  display: block;
+  width: 33.7rem;
+  height: 0.2rem;
+  background-color: var(--pink01);
+  margin: 0 auto;
+  grid-column: 1 / -1;
+}
